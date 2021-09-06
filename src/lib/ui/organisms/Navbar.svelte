@@ -3,7 +3,7 @@
     <span
       class="ml-2 text-xl md:text-2xl  font-extrabold tracking-wide uppercase"
     >
-      Digital Stories<span class="text-xs font-bold">.art</span>
+      Digital Saga<span class="text-xs font-bold">.art</span>
     </span>
   </div>
 </nav>
