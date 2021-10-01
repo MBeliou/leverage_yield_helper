@@ -30,10 +30,11 @@
         /></a
       >
     </p>
-    <h3 class="text-lg text-gray-100 font-semibold text-center">
-      I want to farm
+    <div class="w-full max-w-2xl mx-auto h-[1px] bg-gray-300 bg-opacity-40 rounded-full"></div>
+    <h3 class="mt-6 text-xl uppercase text-gray-100 font-black text-center">
+      I want to <span class="text-primary">farm</span>
     </h3>
-    <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4 px-4">
+    <div class="mt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4">
       {#each ALL_TWO_SIDED_POOLS as pool}
         <PoolCard {pool} />
       {/each}
@@ -41,8 +42,8 @@
 
     <div class="mt-10">
       {#if $SelectionStore}
-        <h3 class="text-lg text-gray-100 font-semibold text-center">
-          I want to have long exposure to
+        <h3 class="text-xl uppercase text-gray-100 font-black text-center">
+          I want to have <span class="text-primary">long</span> exposure to
         </h3>
 
         <div class="mt-4 grid grid-cols-2 gap-4 px-4">
@@ -55,8 +56,8 @@
 
     {#if $SelectedAsset && $ToBorrowAsset}
       <div class="mt-10">
-        <h3 class="text-lg text-gray-100 font-semibold text-center">
-          I need to borrow
+        <h3 class="text-xl uppercase text-gray-100 font-black text-center">
+          I need to <span class="text-primary">borrow</span>
         </h3>
 
         <div class="mt-4 p-0.5  rounded-md max-w-md mx-auto">
