@@ -11,10 +11,16 @@ module.exports = {
     extend: {
       colors: {
         //       primary: 'var(--color-primary)',
+        "dark" : "#3c4858",
+        "lighter-dark": "#23262B",
+        "light": "#FCFCFC",
+        "primary" : "#FEBF32"
+        /*
         "primary": "#6D28D9",
         "secondary": "#BE185D",
         "tertiary": "#059669",
         "mycolor": "rgb(189, 0, 120)"
+        */
       }
     },
   },
